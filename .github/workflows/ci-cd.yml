@@ -25,11 +25,13 @@ jobs:
 
     - name: Build and Push Backend
       run: |
+        cd backend
         docker build -t malavikaselvan899/backend:latest .
         docker push malavikaselvan899/backend:latest
 
     - name: Build and Push Frontend
       run: |
+        cd frontend
         docker build -t malavikaselvan899/frontend:latest .
         docker push malavikaselvan899/frontend:latest
 
