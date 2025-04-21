@@ -35,4 +35,3 @@ jobs:
       run: |
         minikube start
         kubectl apply -f manifests/
-
