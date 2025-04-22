@@ -1,4 +1,4 @@
-fetch("http://backend:80/books")
+fetch("http://192.168.49.2:30080/books")
   .then(res => res.json())
   .then(books => {
     const list = document.getElementById("book-list");
