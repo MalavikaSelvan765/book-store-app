@@ -35,11 +35,6 @@ jobs:
         docker build -t malavikaselvan899/frontend:latest .
         docker push malavikaselvan899/frontend:latest
 
-    # - name: Deploy to Minikube
-    #   run: |
-    #     minikube start
-    #     kubectl apply -f manifests/
-
     - name: Deploy to Minikube
       run: |
         minikube start --driver=docker
