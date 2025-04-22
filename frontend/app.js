@@ -14,9 +14,10 @@ const books = [
   }
 ];
 
-// Render books to the DOM
-document.addEventListener("DOMContentLoaded", () => {
+// Function to render books to the DOM
+function renderBooks() {
   const list = document.getElementById("book-list");
+  if (!list) return;
 
   books.forEach(book => {
     const li = document.createElement("li");
@@ -29,4 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
     li.appendChild(link);
     list.appendChild(li);
   });
-});
+}
+
+// Normal browser behavior
+document.addEventListener("DOMContentLoaded", renderBooks);
+
+// Export for testing
+module.exports = { renderBooks };
