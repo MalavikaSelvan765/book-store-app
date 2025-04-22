@@ -1,4 +1,13 @@
-"scripts": {
-  "test": "jest --coverage",
-  "test:coverage": "jest --coverage --coverageReporters=cobertura"
+{
+  "name": "book-store-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the book store app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:coverage": "jest --coverage --coverageReporters=cobertura"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
