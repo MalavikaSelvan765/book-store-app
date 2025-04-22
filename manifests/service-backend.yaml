@@ -6,6 +6,8 @@ spec:
   selector:
     app: backend
   ports:
-    - port: 80
-      targetPort: 5000
-
+    - protocol: TCP
+      port: 80
+      targetPort: 8080 
+      nodePort: 30080   
+  type: NodePort
