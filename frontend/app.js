@@ -11,39 +11,8 @@ const books = [
     title: "1984",
     author: "George Orwell",
     url: "https://www.planetebook.com/free-ebooks/1984.pdf"
-  },
-  {
-    title: "Pride and Prejudice",
-    author: "Jane Austen",
-    url: "https://www.planetebook.com/free-ebooks/pride-and-prejudice.pdf"
-  },
-  {
-    title: "Frankenstein",
-    author: "Mary Shelley",
-    url: "https://www.planetebook.com/free-ebooks/frankenstein.pdf"
-  },
-  {
-    title: "Dracula",
-    author: "Bram Stoker",
-    url: "https://www.planetebook.com/free-ebooks/dracula.pdf"
-  },
-  {
-    title: "Moby-Dick",
-    author: "Herman Melville",
-    url: "https://www.planetebook.com/free-ebooks/moby-dick.pdf"
-  },
-  {
-    title: "The Adventures of Sherlock Holmes",
-    author: "Arthur Conan Doyle",
-    url: "https://www.planetebook.com/free-ebooks/the-adventures-of-sherlock-holmes.pdf"
-  },
-  {
-    title: "Alice’s Adventures in Wonderland",
-    author: "Lewis Carroll",
-    url: "https://www.planetebook.com/free-ebooks/alices-adventures-in-wonderland.pdf"
   }
 ];
-
 
 // Function to render books to the DOM
 function renderBooks() {
